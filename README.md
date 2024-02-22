@@ -2,6 +2,22 @@
 
 This repo purpose is to gather useful scripts for different sporadic DevOps operations.
 
+# MinIO
+
+## copy_files_minio.py
+
+This script is to copy files by listing the ones unable to be copied.
+
+The MinIO Python SDK is needed, see: [Install the MinIO Python SDK](https://github.com/minio/minio-py?tab=readme-ov-file#install-the-minio-python-sdk)
+
+It take 6 mandatory arguments:
+- MinIO Endpoint
+- MinIO Access Key
+- MinIO Secret Key
+- Source Bucket
+- Source Prefix
+- Remote Bucket
+
 # OpenStack
 
 ## list_instances_flavor-hostid.sh
