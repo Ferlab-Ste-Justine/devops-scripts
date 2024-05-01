@@ -37,3 +37,12 @@ This script is to list instances with the following information:
 - Last Log Line
 
 It can take 1 argument representing a regular expression to match instance names. If no argument is given, all instances are shown.
+
+# SSH
+
+## test_connection_ssh.sh
+
+This script is to establish a ssh connection to confirm it works under 10 seconds. It does so every 5 seconds.
+
+It take 1 mandatory argument:
+- Username with Hostname/IP (separated by a `@`)
