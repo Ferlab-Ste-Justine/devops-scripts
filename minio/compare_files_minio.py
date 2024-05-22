@@ -46,10 +46,12 @@ if __name__ == '__main__':
 
     start = time.time()
 
-    print("\nListing files...")
+    print("\nListing source files...")
     src_files = list_files(src_client, args.bucket, args.prefix)
+    print("Listing destination files...")
     dst_files = list_files(dst_client, args.bucket, args.prefix)
 
+    print("Comparing files...")
     files_missing = compare_files(src_files, dst_files)
     if files_missing:
         print("\nFiles in source but not in destination:")
