@@ -64,3 +64,13 @@ This script is to establish a ssh connection to confirm it works under 10 second
 
 It take 1 mandatory argument:
 - Username with Hostname/IP (separated by a `@`)
+
+
+# CURL
+
+## test_request_curl.sh
+
+This script is to execute a curl command to see its duration and if it's under 10 seconds. It does so every 5 seconds.
+
+It take 1 mandatory argument:
+- URL
