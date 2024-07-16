@@ -74,3 +74,13 @@ This script is to execute a curl command to see its duration and if it's under 1
 
 It take 1 mandatory argument:
 - URL
+
+
+# OpenSSL
+
+## get_san_openssl.sh
+
+This script is to execute an openssl command to show the `Subject Alternative Name` values of a domain server certificate.
+
+It take 1 mandatory argument:
+- Domain
