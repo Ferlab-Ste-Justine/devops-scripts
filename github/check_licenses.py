@@ -9,9 +9,9 @@ GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 if not GITHUB_TOKEN:
     raise Exception("Please set the GITHUB_TOKEN environment variable.")
 
-ORG_NAMES = ['Ferlab-Ste-Justine', 'Ferlab-Ste-Justine-Ops']
+ORG_NAMES = ['Ferlab-Ste-Justine']
 CURRENT_YEAR = datetime.now().year
-OWNER_NAME = 'Ferlab-Ste-Justine'
+OWNER_NAME = 'Ferlab - Centre de recherche du CHU Sainte-Justine'
 
 APACHE_LICENSE_CONTENT = f"""
 Apache License
@@ -224,7 +224,6 @@ HEADERS = {
     'Accept': 'application/vnd.github.v3+json'
 }
 
-# Function to get all repositories in the organization
 def get_org_repositories(org_name):
     repos = []
     page = 1
@@ -240,20 +239,19 @@ def get_org_repositories(org_name):
         page += 1
     return repos
 
-# Function to get the list of known licenses
 def get_known_licenses():
     url = 'https://api.github.com/licenses'
     response = requests.get(url, headers=HEADERS)
     if response.status_code != 200:
         raise Exception(f'Error fetching known licenses: {response.status_code}')
-    licenses = response.json()
-    return {license['key']: license['name'] for license in licenses}
+    return {license['key']: license['name'] for license in response.json()}
 
-# Function to check the license of a repository
 def check_repo_license(repo, known_licenses):
     repo_name = repo['name']
     org_name = repo['owner']['login']
-    is_public = not repo['private']
+    if repo['private']:
+        return f"Repository **{repo_name}** in {org_name} is private and is being skipped.", 'Private', 'Private'
+
     url = f'{BASE_URL}/repos/{org_name}/{repo_name}/license'
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
@@ -262,35 +260,18 @@ def check_repo_license(repo, known_licenses):
         if license_key in known_licenses:
             license_name = known_licenses[license_key]
             return f"Repository **{repo_name}** in {org_name} has a valid license: {license_name}", 'Valid License', license_name
-        else:
-            return f"Repository **{repo_name}** in {org_name} has an unrecognized license: {license_key}", 'Unrecognized License', 'Unrecognized'
+        return f"Repository **{repo_name}** in {org_name} has an unrecognized license: {license_key}", 'Unrecognized License', 'Unrecognized'
     elif response.status_code == 404:
-        if is_public:
-            return f"Repository **{repo_name}** in {org_name} is public and does not have a license file. A license is recommended.", 'No License', 'None'
-        else:
-            return f"Repository **{repo_name}** in {org_name} is private and does not have a license file. A license is recommended based on internal policy.", 'No License', 'None'
+        return f"Repository **{repo_name}** in {org_name} is public and does not have a license file. A license is recommended.", 'No License', 'None'
     else:
         return f"Error fetching license for repository **{repo_name}** in {org_name}: {response.status_code}", 'Error', 'Error'
 
-
-# Function to check if a LICENSE file already exists and its content
-def check_license_file_exists(repo):
-    repo_name = repo['name']
-    org_name = repo['owner']['login']
-    url = f'{BASE_URL}/repos/{org_name}/{repo_name}/contents/LICENSE'
-    response = requests.get(url, headers=HEADERS)
-    if response.status_code == 200:
-        content = response.json().get('content', '')
-        return True, base64.b64decode(content).decode('utf-8')
-    return False, ''
-
-# Function to add a license to a repository
 def add_license(repo, license_content):
     repo_name = repo['name']
     org_name = repo['owner']['login']
     url = f'{BASE_URL}/repos/{org_name}/{repo_name}/contents/LICENSE'
     data = {
-        "message": "Adding Apache License 2.0",
+        "message": "feat: INFRA-687 Adding Apache License 2.0",
         "content": base64.b64encode(license_content.encode()).decode(),
         "committer": {
             "name": "License Bot",
@@ -299,15 +280,10 @@ def add_license(repo, license_content):
     }
     response = requests.put(url, headers=HEADERS, json=data)
     if response.status_code == 201:
-        return f"Apache License 2.0 added by user to repository **{repo_name}** in {org_name}.", 'Apache License Added'
-    elif response.status_code == 403:
-        return f"Failed to add Apache License 2.0 to repository **{repo_name}** in {org_name}: 403 Forbidden. Check your token permissions.", 'Add License Failed'
-    elif response.status_code == 422:
-        return f"Failed to add Apache License 2.0 to repository **{repo_name}** in {org_name}: 422 Unprocessable Entity. The file might already exist or there are semantic errors. Response: {response.json()}", 'Add License Failed'
+        return f"Apache License 2.0 added to repository **{repo_name}** in {org_name}.", 'Apache License Added'
     else:
         return f"Failed to add Apache License 2.0 to repository **{repo_name}** in {org_name}: {response.status_code}. Response: {response.text}", 'Add License Failed'
 
-# Function to prompt user for adding a license
 def prompt_add_license(repo):
     repo_name = repo['name']
     org_name = repo['owner']['login']
@@ -321,107 +297,51 @@ def prompt_add_license(repo):
         else:
             print("Please enter 'yes' or 'no'.")
 
-# Main script
 def main():
     try:
-        generate_report_only = input("Do you want to generate a report only (yes) or also add licenses (no)? (yes/no): ").strip().lower()
-        if generate_report_only not in ['yes', 'no']:
-            print("Invalid input. Please enter 'yes' or 'no'.")
-            return
-
-        generate_report_only = generate_report_only == 'yes'
-        
+        generate_report_only = input("Generate report only (yes/no)? ").strip().lower() == 'yes'
         known_licenses = get_known_licenses()
-        logs = []
-        csv_data = []
+        logs, csv_data = [], []
 
-        # Add a comment about how licenses were checked
         logs.append("License Check Report")
-        logs.append("="*80)
-        logs.append("This report checks each repository in the specified GitHub organizations for the presence of a license file.")
-        logs.append("Repositories with a recognized and valid license are noted, while those without a license file or with an unrecognized license are flagged.")
-        logs.append("\nDetails:")
-        logs.append("1. Fetched the list of repositories for each organization using the GitHub API.")
-        logs.append("2. For each repository, fetched the license information using the GitHub API.")
-        logs.append("3. Checked if the license key is among the known licenses provided by the GitHub API.")
-        logs.append("4. Logged whether each repository has a valid license, an unrecognized license, or no license file.")
-        if not generate_report_only:
-            logs.append("5. For public repositories without a license file, prompted the user to add an Apache License 2.0.")
-        logs.append("\nNote: Generally, all public repositories should have a license to clarify the terms of use, redistribution, and contribution.")
-        logs.append("="*80 + "\n")
+        logs.append("=" * 80)
 
-        logs.append(f"\n{'='*80}")
-        logs.append(f"License Check Report - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        logs.append(f"{'='*80}\n")
-        
         for org_name in ORG_NAMES:
-            logs.append(f"\nOrganization: {org_name}")
-            logs.append(f"{'-'*80}")
+            logs.append(f"\nOrganization: {org_name}\n{'-' * 80}")
             repositories = get_org_repositories(org_name)
             for repo in repositories:
                 if repo['archived']:
                     log = f"Repository **{repo['name']}** in {org_name} is archived. Skipping..."
                     logs.append(log)
-                    logs.append(f"{'-'*80}")
                     csv_data.append([repo['name'], org_name, 'Archived', 'Private' if repo['private'] else 'Public', '', ''])
                     print(log)
-                    print(f"{'-'*80}")
                     continue
                 
                 log, license_status, license_name = check_repo_license(repo, known_licenses)
                 logs.append(log)
-                logs.append(f"{'-'*80}")
                 csv_data.append([repo['name'], org_name, license_status, 'Private' if repo['private'] else 'Public', license_name, log])
                 print(log)
-                print(f"{'-'*80}")
-                if license_status == 'No License':
-                    if generate_report_only:
-                        logs.append(f"A license is recommended for repository **{repo['name']}** in {org_name}.")
-                        logs.append(f"{'-'*80}")
-                        csv_data[-1][2] = 'License Recommended'
-                        csv_data[-1][4] = 'None'
-                        print(f"A license is recommended for repository **{repo['name']}** in {org_name}.")
-                        print(f"{'-'*80}")
-                    else:
-                        if prompt_add_license(repo):
-                            exists, content = check_license_file_exists(repo)
-                            if exists:
-                                logs.append(f"LICENSE file already exists in repository **{repo['name']}** in {org_name}.")
-                                logs.append(f"{'-'*80}")
-                                csv_data[-1][2] = 'License Exists'
-                                csv_data[-1][4] = 'Exists'
-                                print(f"LICENSE file already exists in repository **{repo['name']}** in {org_name}.")
-                                print(f"{'-'*80}")
-                            else:
-                                add_log, new_status = add_license(repo, APACHE_LICENSE_CONTENT)
-                                logs.append(add_log)
-                                logs.append(f"{'-'*80}")
-                                csv_data[-1][2] = new_status
-                                csv_data[-1][4] = 'Apache License 2.0'
-                                csv_data[-1][5] = add_log
-                                print(add_log)
-                                print(f"{'-'*80}")
-                        else:
-                            logs.append(f"A license is recommended for repository **{repo['name']}** in {org_name}.")
-                            logs.append(f"{'-'*80}")
-                            csv_data[-1][2] = 'License Recommended'
-                            csv_data[-1][4] = 'None'
-                            print(f"A license is recommended for repository **{repo['name']}** in {org_name}.")
-                            print(f"{'-'*80}")
+
+                if license_status == 'No License' and not generate_report_only:
+                    if prompt_add_license(repo):
+                        add_log, new_status = add_license(repo, APACHE_LICENSE_CONTENT)
+                        logs.append(add_log)
+                        csv_data[-1][2] = new_status
+                        csv_data[-1][4] = 'Apache License 2.0'
+                        csv_data[-1][5] = add_log
+                        print(add_log)
+
             logs.append("\n")
-        
-        # Save logs to a file
+
+        # Save logs and CSV data
         with open('license_check_logs.txt', 'w') as log_file:
             log_file.write('\n'.join(logs))
-
-        # Save CSV data to a file
         with open('license_check_report.csv', 'w', newline='') as csv_file:
             writer = csv.writer(csv_file)
             writer.writerow(['Repository', 'Organization', 'License Status', 'Private/Public', 'License', 'Notes'])
             writer.writerows(csv_data)
         
-        print('\nLogs have been saved to license_check_logs.txt\n')
-        print('CSV report has been saved to license_check_report.csv\n')
+        print('\nLogs have been saved to license_check_logs.txt\nCSV report has been saved to license_check_report.csv\n')
     except Exception as e:
         print(f'An error occurred: {e}')
 

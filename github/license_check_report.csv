@@ -1,28 +1,28 @@
 Repository,Organization,License Status,Private/Public,License,Notes
 coding-challenge-frontend,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **coding-challenge-frontend** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-coding-challenge-backend,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **coding-challenge-backend** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-coding-challenge-fullstack,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **coding-challenge-fullstack** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+coding-challenge-backend,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **coding-challenge-backend** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+coding-challenge-fullstack,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **coding-challenge-fullstack** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 clin-frontend,Ferlab-Ste-Justine,Archived,Public,,
-clin-backend,Ferlab-Ste-Justine,Archived,Public,,
-clin-workflow,Ferlab-Ste-Justine,Archived,Public,,
+clin-backend,Ferlab-Ste-Justine,Archived,Private,,
+clin-workflow,Ferlab-Ste-Justine,Archived,Private,,
 development-standards,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **development-standards** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
-clin-project,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **clin-project** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
+clin-project,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-project** in Ferlab-Ste-Justine is private and is being skipped.
 chujs-alignment-workflow,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **chujs-alignment-workflow** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-prototypes,Ferlab-Ste-Justine,Archived,Public,,
-clin-search-engine,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **clin-search-engine** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
+clin-prototypes,Ferlab-Ste-Justine,Archived,Private,,
+clin-search-engine,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-search-engine** in Ferlab-Ste-Justine is private and is being skipped.
 prototype-biodesk,Ferlab-Ste-Justine,Unrecognized License,Public,Unrecognized,Repository **prototype-biodesk** in Ferlab-Ste-Justine has an unrecognized license: other
 cr-ste-justine.github.io,Ferlab-Ste-Justine,Archived,Public,,
 clin-proxy-api,Ferlab-Ste-Justine,Archived,Public,,
 pdf-search,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **pdf-search** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
-clin-fhir,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-fhir** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-fhir,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-fhir** in Ferlab-Ste-Justine is private and is being skipped.
 devops,Ferlab-Ste-Justine,Archived,Public,,
 fhir-import-deprecated,Ferlab-Ste-Justine,Archived,Public,,
-landing,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **landing** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-gene-panel,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-gene-panel** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-etl-FHIR,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-etl-FHIR** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-circare,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **circare** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+landing,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **landing** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-gene-panel,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-gene-panel** in Ferlab-Ste-Justine is private and is being skipped.
+clin-etl-FHIR,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-etl-FHIR** in Ferlab-Ste-Justine is private and is being skipped.
+circare,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **circare** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 coding-challenge-backend-service,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **coding-challenge-backend-service** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
-clin-geneset-etl,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **clin-geneset-etl** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
+clin-geneset-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-geneset-etl** in Ferlab-Ste-Justine is private and is being skipped.
 SONG-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 score-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 overture-dev-deprecated,Ferlab-Ste-Justine,Archived,Public,,
@@ -34,81 +34,81 @@ node-configs,Ferlab-Ste-Justine,Valid License,Public,GNU General Public License 
 score-auth-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 dcc-id,Ferlab-Ste-Justine,Unrecognized License,Public,Unrecognized,Repository **dcc-id** in Ferlab-Ste-Justine has an unrecognized license: other
 overture-id-service-deprecated,Ferlab-Ste-Justine,Archived,Public,,
-clin-overture-client-deprecated,Ferlab-Ste-Justine,Archived,Public,,
-clin-overture-schemas,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-overture-schemas** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-overture-dev-clin-deprecated,Ferlab-Ste-Justine,Archived,Public,,
+clin-overture-client-deprecated,Ferlab-Ste-Justine,Archived,Private,,
+clin-overture-schemas,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-overture-schemas** in Ferlab-Ste-Justine is private and is being skipped.
+overture-dev-clin-deprecated,Ferlab-Ste-Justine,Archived,Private,,
 overture-python-sdk-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 DockerFiles,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **DockerFiles** in Ferlab-Ste-Justine has a valid license: MIT License
 song-metadata-resolver-deprecated,Ferlab-Ste-Justine,Archived,Public,,
-cqdg-website,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-website** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-external-proxy-deprecated,Ferlab-Ste-Justine,Archived,Public,,
+cqdg-website,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-website** in Ferlab-Ste-Justine is private and is being skipped.
+clin-external-proxy-deprecated,Ferlab-Ste-Justine,Archived,Private,,
 collab-infra-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 kf-zeppelin,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kf-zeppelin** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-environments-deprecated,Ferlab-Ste-Justine,Archived,Private,,
-cqdg-project,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **cqdg-project** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
+clin-environments-deprecated,Ferlab-Ste-Justine,Archived,Public,,
+cqdg-project,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-project** in Ferlab-Ste-Justine is private and is being skipped.
 openstack-bastion,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-bastion** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-null-kubernetes-installation,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-null-kubernetes-installation** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 cqdg-infra-provisioning,Ferlab-Ste-Justine,Archived,Private,,
 openstack-kubernetes-cluster,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-kubernetes-cluster** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 openstack-postgres-standalone,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-postgres-standalone** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-FHIR,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-FHIR** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-FHIR,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-FHIR** in Ferlab-Ste-Justine is private and is being skipped.
 kubernetes-infrastructure-configuration,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kubernetes-infrastructure-configuration** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-k8-generic-orchestrations,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **k8-generic-orchestrations** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-pre-prod-kubernetes-environments,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-pre-prod-kubernetes-environments** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+k8-generic-orchestrations,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **k8-generic-orchestrations** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-pre-prod-kubernetes-environments,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-pre-prod-kubernetes-environments** in Ferlab-Ste-Justine is private and is being skipped.
 ncpi-fhir-utility,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ncpi-fhir-utility** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-fhir-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-fhir-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-docs,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **cqdg-docs** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
-cqdg-dictionary,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **cqdg-dictionary** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
+clin-fhir-server,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-fhir-server** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-docs,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-docs** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-dictionary,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-dictionary** in Ferlab-Ste-Justine is private and is being skipped.
 cqdg-secrets-deprecated,Ferlab-Ste-Justine,Archived,Private,,
-clin-keycloak-theme,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-keycloak-theme** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+clin-keycloak-theme,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-keycloak-theme** in Ferlab-Ste-Justine is private and is being skipped.
 clin-hapi-fhir-jpaserver,Ferlab-Ste-Justine,Archived,Public,,
 terraform-openstack-mongodb-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-mongodb-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-variant-etl,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-variant-etl** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-variant-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-variant-etl** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-openstack-zonefile,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-zonefile** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 openstack-coredns,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-coredns** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 lectern,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **lectern** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
 kf-ant-design-system,Ferlab-Ste-Justine,Archived,Public,,
 openstack-elasticsearch-cluster,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-elasticsearch-cluster** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-etl-indexer,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-etl-indexer** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-obo-parser,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **obo-parser** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-hpo-etl,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-hpo-etl** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+clin-etl-indexer,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-etl-indexer** in Ferlab-Ste-Justine is private and is being skipped.
+obo-parser,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **obo-parser** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-hpo-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-hpo-etl** in Ferlab-Ste-Justine is private and is being skipped.
 action-push-image,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **action-push-image** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 kubernetes-cd-deprecated,Ferlab-Ste-Justine,Archived,Private,,
 clin-environments,Ferlab-Ste-Justine,Archived,Public,,
 git-autosync,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **git-autosync** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-etl,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-etl** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-etl-indexer,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-etl-indexer** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+cqdg-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-etl** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-etl-indexer,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-etl-indexer** in Ferlab-Ste-Justine is private and is being skipped.
 cqdg-portal-ui-deprecated,Ferlab-Ste-Justine,Archived,Public,,
 spark-images,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **spark-images** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-fhir-etl,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-fhir-etl** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-fhir-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-fhir-etl** in Ferlab-Ste-Justine is private and is being skipped.
 s3-transfer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **s3-transfer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ferlab-ui,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlab-ui** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-big-data-interview,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **big-data-interview** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-pipelines,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-pipelines** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-pipelines-dags,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-pipelines-dags** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-poc-univers-informationnel,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **poc-univers-informationnel** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+big-data-interview,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **big-data-interview** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-pipelines,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-pipelines** in Ferlab-Ste-Justine is private and is being skipped.
+clin-pipelines-dags,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-pipelines-dags** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+poc-univers-informationnel,Ferlab-Ste-Justine,Private,Private,Private,Repository **poc-univers-informationnel** in Ferlab-Ste-Justine is private and is being skipped.
 action-commit-lint,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **action-commit-lint** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-files,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-files** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-unic-etl,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-etl** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqdg-files,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-files** in Ferlab-Ste-Justine is private and is being skipped.
+unic-etl,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-etl** in Ferlab-Ste-Justine is private and is being skipped.
 arranger,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **arranger** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
 openstack-zeppelin,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **openstack-zeppelin** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-tls-kubernetes-certificates,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-tls-kubernetes-certificates** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-fhir-console,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **fhir-console** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-arranger,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-arranger** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-portal,Ferlab-Ste-Justine,Valid License,Public,GNU General Public License v3.0,Repository **cqdg-portal** in Ferlab-Ste-Justine has a valid license: GNU General Public License v3.0
-etl-lineage,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **etl-lineage** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+fhir-console,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fhir-console** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-arranger,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-arranger** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-portal,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-portal** in Ferlab-Ste-Justine is private and is being skipped.
+etl-lineage,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **etl-lineage** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 cqdg-dags,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-dags** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 backup-docker-images,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **backup-docker-images** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-keycloak,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-keycloak** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-keycloak,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-keycloak** in Ferlab-Ste-Justine is private and is being skipped.
 clin-keycloak-configs,Ferlab-Ste-Justine,Archived,Private,,
-cqdg-keycloak-configs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-keycloak-configs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-cqdg-clinical-data-service,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **cqdg-clinical-data-service** in Ferlab-Ste-Justine has a valid license: MIT License
+cqdg-keycloak-configs,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-keycloak-configs** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-clinical-data-service,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-clinical-data-service** in Ferlab-Ste-Justine is private and is being skipped.
 build-images,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **build-images** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-id-service,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **id-service** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+id-service,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **id-service** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 datalake-lib,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **datalake-lib** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ferload,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferload** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 cqdg-infra-etcd-ops,Ferlab-Ste-Justine,Archived,Private,,
-datagrid-service,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **datagrid-service** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+datagrid-service,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **datagrid-service** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 cqdg-infra-images,Ferlab-Ste-Justine,Archived,Private,,
 cqdg-infra-postgres,Ferlab-Ste-Justine,Archived,Private,,
 terraform-openstack-etcd-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-etcd-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -116,29 +116,30 @@ terraform-openstack-etcd-server,Ferlab-Ste-Justine,Valid License,Public,Apache L
 openstack-etcd-client-certificate,Ferlab-Ste-Justine,Archived,Public,,
 cqdg-infra-dns-ops,Ferlab-Ste-Justine,Archived,Private,,
 cqdg-infra-kubernetes,Ferlab-Ste-Justine,Archived,Private,,
-operational-documentation,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **operational-documentation** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqdg-prod-kubernetes-environments,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-prod-kubernetes-environments** in Ferlab-Ste-Justine is private and is being skipped.
+operational-documentation,Ferlab-Ste-Justine,Private,Private,Private,Repository **operational-documentation** in Ferlab-Ste-Justine is private and is being skipped.
 cqdg-infra-es,Ferlab-Ste-Justine,Archived,Private,,
-cqdg-postgres-databases-configs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-postgres-databases-configs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-ferload-client-cli,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **ferload-client-cli** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+cqdg-postgres-databases-configs,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-postgres-databases-configs** in Ferlab-Ste-Justine is private and is being skipped.
+ferload-client-cli,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferload-client-cli** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 cqdg-infra-secrets-retrieval,Ferlab-Ste-Justine,Archived,Private,,
 cqdg-infra-mongodb,Ferlab-Ste-Justine,Archived,Private,,
-unic-docs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-docs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-unic-iam,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-iam** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+unic-docs,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-docs** in Ferlab-Ste-Justine is private and is being skipped.
+unic-iam,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-iam** in Ferlab-Ste-Justine is private and is being skipped.
 ssh-tunnel-client,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ssh-tunnel-client** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 fhir-avro,Ferlab-Ste-Justine,Archived,Private,,
 terraform-openstack-mongodb-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-mongodb-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-arranger,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-arranger** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-unic-hl7-connector,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-hl7-connector** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-arranger,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-arranger** in Ferlab-Ste-Justine is private and is being skipped.
+unic-hl7-connector,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-hl7-connector** in Ferlab-Ste-Justine is private and is being skipped.
 zeppelin-oidc,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **zeppelin-oidc** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 fhavro,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fhavro** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-terraform-provider-mongodb,Ferlab-Ste-Justine,Valid License,Private,Apache License 2.0,Repository **terraform-provider-mongodb** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-elasticsearch-configs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-elasticsearch-configs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-windows-vm,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **windows-vm** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-clin-elasticsearch-configs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **clin-elasticsearch-configs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+terraform-provider-mongodb,Ferlab-Ste-Justine,Private,Private,Private,Repository **terraform-provider-mongodb** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-elasticsearch-configs,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-elasticsearch-configs** in Ferlab-Ste-Justine is private and is being skipped.
+windows-vm,Ferlab-Ste-Justine,Private,Private,Private,Repository **windows-vm** in Ferlab-Ste-Justine is private and is being skipped.
+clin-elasticsearch-configs,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-elasticsearch-configs** in Ferlab-Ste-Justine is private and is being skipped.
 unic-dag,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-dag** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 fhavro-rest-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fhavro-rest-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-ui-kubernetes-orchestration,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **ui-kubernetes-orchestration** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-unic-jupyter,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-jupyter** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+ui-kubernetes-orchestration,Ferlab-Ste-Justine,Private,Private,Private,Repository **ui-kubernetes-orchestration** in Ferlab-Ste-Justine is private and is being skipped.
+unic-jupyter,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-jupyter** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-kubectl-fluxcd-installation,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-kubectl-fluxcd-installation** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ui-infra-kubernetes,Ferlab-Ste-Justine,Archived,Private,,
 airflow-image,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **airflow-image** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -147,13 +148,13 @@ csv-to-fhir,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repositor
 clin-ui,Ferlab-Ste-Justine,Archived,Public,,
 terraform-etcd-zonefile,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-etcd-zonefile** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 coredns-auto-updater,Ferlab-Ste-Justine,Archived,Public,,
-clin-switch,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **clin-switch** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-cqgc-operational-documentation,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqgc-operational-documentation** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-cqgc-infra-baremetal,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqgc-infra-baremetal** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+clin-switch,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-switch** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-operational-documentation,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-operational-documentation** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-infra-baremetal,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-infra-baremetal** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-etcd-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-etcd-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 clin-prescription-renderer,Ferlab-Ste-Justine,Archived,Public,,
 terraform-libvirt-coredns-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-coredns-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-spark-operator,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-spark-operator** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unic-spark-operator,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-spark-operator** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-bastion,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-bastion** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-kubernetes-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-kubernetes-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-kubernetes-node,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-kubernetes-node** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -161,56 +162,58 @@ csv-to-es,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository 
 terracd,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terracd** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-provider-netaddr,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-provider-netaddr** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 clin-ui-dev-proxy,Ferlab-Ste-Justine,Archived,Public,,
-unic-data-profiling,Ferlab-Ste-Justine,Valid License,Private,Apache License 2.0,Repository **unic-data-profiling** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unic-data-profiling,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-data-profiling** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-postgres-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-postgres-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 kvm-elasticsearch-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kvm-elasticsearch-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqgc-pre-prod-kubernetes-environments,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqgc-pre-prod-kubernetes-environments** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-cqgc-pre-prod-service-configurations,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqgc-pre-prod-service-configurations** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqgc-prod-kubernetes-environments,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-prod-kubernetes-environments** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-pre-prod-kubernetes-environments,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-pre-prod-kubernetes-environments** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-prod-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-prod-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-pre-prod-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-pre-prod-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
 kvm-zeppelin,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kvm-zeppelin** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ferlab-coredns,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlab-coredns** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-kubernetes-environments,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-kubernetes-environments** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-docker-maven-node,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **docker-maven-node** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+unic-kubernetes-environments,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-kubernetes-environments** in Ferlab-Ste-Justine is private and is being skipped.
+docker-maven-node,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **docker-maven-node** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-nfs-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-nfs-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-portal-ui,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **clin-portal-ui** in Ferlab-Ste-Justine has a valid license: MIT License
+clin-portal-ui,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-portal-ui** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-kubernetes-fluxcd-bootstrap,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-kubernetes-fluxcd-bootstrap** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 fluentd-docker-image,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fluentd-docker-image** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-spark,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-spark** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unic-spark,Ferlab-Ste-Justine,Archived,Private,,
 users-api,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **users-api** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-postgres-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-postgres-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-fhir-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-fhir-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-portal-forms,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-portal-forms** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-portal-ui,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-portal-ui** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-etcd-configs,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-etcd-configs** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqdg-fhir-server,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-fhir-server** in Ferlab-Ste-Justine is private and is being skipped.
+clin-portal-forms,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-portal-forms** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-portal-ui,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-portal-ui** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-etcd-configs,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-etcd-configs** in Ferlab-Ste-Justine is private and is being skipped.
 configurations-auto-updater,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **configurations-auto-updater** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-ghaction-import-gpg,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **ghaction-import-gpg** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+ghaction-import-gpg,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ghaction-import-gpg** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 api-portal-reports,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **api-portal-reports** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-prometheus-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-prometheus-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 prometheus-libvirt-exporter,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **prometheus-libvirt-exporter** in Ferlab-Ste-Justine has a valid license: MIT License
-fe-config-husky,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **fe-config-husky** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-unic-report,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-report** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-airflow,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **airflow** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+fe-config-husky,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fe-config-husky** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unic-report,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-report** in Ferlab-Ste-Justine is private and is being skipped.
+airflow,Ferlab-Ste-Justine,Private,Private,Private,Repository **airflow** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-tls-client-certificate,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-tls-client-certificate** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-fhir-import,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-fhir-import** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+cqdg-fhir-import,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-fhir-import** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-opensearch-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-opensearch-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 kubernetes-client-config,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kubernetes-client-config** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-api-arranger,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-api-arranger** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-etl-cqdg-portal,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **etl-cqdg-portal** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-varsome-proxy,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **varsome-proxy** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+cqdg-api-arranger,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-api-arranger** in Ferlab-Ste-Justine is private and is being skipped.
+etl-cqdg-portal,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **etl-cqdg-portal** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+varsome-proxy,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **varsome-proxy** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 vm-image-builds,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **vm-image-builds** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-provider-opensearch,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-provider-opensearch** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 etcd-sdk,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **etcd-sdk** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-prod-service-configurations,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-prod-service-configurations** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+unic-prod-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-prod-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-backend-etcd,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-backend-etcd** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-packerbot,Ferlab-Ste-Justine,Valid License,Private,Apache License 2.0,Repository **packerbot** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+packerbot,Ferlab-Ste-Justine,Private,Private,Private,Repository **packerbot** in Ferlab-Ste-Justine is private and is being skipped.
 fluentd-kubernetes-daemonset,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **fluentd-kubernetes-daemonset** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-provider-minio,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-provider-minio** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-app-butcher,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **app-butcher** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+app-butcher,Ferlab-Ste-Justine,Private,Private,Private,Repository **app-butcher** in Ferlab-Ste-Justine is private and is being skipped.
 users-api-concourse,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **users-api-concourse** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-poc-sso,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **unic-poc-sso** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-poc-keycloak,Ferlab-Ste-Justine,Valid License,Private,Apache License 2.0,Repository **poc-keycloak** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unic-poc-sso,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-poc-sso** in Ferlab-Ste-Justine is private and is being skipped.
+poc-keycloak,Ferlab-Ste-Justine,Private,Private,Private,Repository **poc-keycloak** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-kubernetes-etcd-localhost,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-kubernetes-etcd-localhost** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-ferload-client-cli-go,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **ferload-client-cli-go** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-portal-report,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-portal-report** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+ferload-client-cli-go,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferload-client-cli-go** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-portal-report,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-portal-report** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-cloudinit-templates,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-cloudinit-templates** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 kvm-dev-orchestrations,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kvm-dev-orchestrations** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 kubespray-image,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **kubespray-image** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -219,25 +222,26 @@ terraform-openstack-elasticsearch-security-groups,Ferlab-Ste-Justine,Valid Licen
 terraform-openstack-kubernetes-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-kubernetes-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-kubernetes-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-kubernetes-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-kubernetes-node,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-kubernetes-node** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-panels,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-panels** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+clin-panels,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-panels** in Ferlab-Ste-Justine is private and is being skipped.
 ferlease,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlease** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ferlease-playground,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlease-playground** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 git-sdk,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **git-sdk** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-redcap-connector,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **unic-redcap-connector** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+unic-redcap-connector,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-redcap-connector** in Ferlab-Ste-Justine is private and is being skipped.
 envoy-transport-control-plane,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **envoy-transport-control-plane** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 github-maintenance,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **github-maintenance** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-transport-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-transport-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+rstudio-workbench-image,Ferlab-Ste-Justine,Private,Private,Private,Repository **rstudio-workbench-image** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-etcd-envoy-transport-configuration,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-etcd-envoy-transport-configuration** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-provider-tlsext,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-provider-tlsext** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-prescription-ui,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **clin-prescription-ui** in Ferlab-Ste-Justine has a valid license: MIT License
-cqgc-keycloak,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqgc-keycloak** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-prescription-ui,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-prescription-ui** in Ferlab-Ste-Justine is private and is being skipped.
+cqgc-keycloak,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqgc-keycloak** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-vault-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-vault-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-vault-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-vault-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-fhir-import-file-data,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-fhir-import-file-data** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqdg-fhir-import-file-data,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-fhir-import-file-data** in Ferlab-Ste-Justine is private and is being skipped.
 systemd-remote,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **systemd-remote** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-automation-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-automation-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-packer-remote,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **packer-remote** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
-clin-portal-theme,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-portal-theme** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+packer-remote,Ferlab-Ste-Justine,Private,Private,Private,Repository **packer-remote** in Ferlab-Ste-Justine is private and is being skipped.
+clin-portal-theme,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **clin-portal-theme** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-minio-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-minio-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-dhcp-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-dhcp-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-transport-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-transport-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -245,7 +249,7 @@ terraform-openstack-automation-server,Ferlab-Ste-Justine,Valid License,Public,Ap
 gitsync,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **gitsync** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 arranger-1,Ferlab-Ste-Justine,Valid License,Public,GNU Affero General Public License v3.0,Repository **arranger-1** in Ferlab-Ste-Justine has a valid license: GNU Affero General Public License v3.0
 cqdg-infra-automation-server,Ferlab-Ste-Justine,Archived,Private,,
-ferlapi,Ferlab-Ste-Justine,Valid License,Private,Apache License 2.0,Repository **ferlapi** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+ferlapi,Ferlab-Ste-Justine,Private,Private,Private,Repository **ferlapi** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-openstack-coredns-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-coredns-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-coredns-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-coredns-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-libvirt-alertmanager-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-alertmanager-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
@@ -256,42 +260,46 @@ terraform-openstack-alertmanager-server,Ferlab-Ste-Justine,Valid License,Public,
 terraform-openstack-alertmanager-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-alertmanager-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-prometheus-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-prometheus-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-prometheus-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-prometheus-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-pre-prod-service-configurations,Ferlab-Ste-Justine,License Recommended,Private,None,Repository **cqdg-pre-prod-service-configurations** in Ferlab-Ste-Justine is private and does not have a license file. A license is recommended based on internal policy.
+cqdg-pre-prod-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-pre-prod-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-openstack-transport-load-balancer-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-transport-load-balancer-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-maintenance-ui,Ferlab-Ste-Justine,Valid License,Public,MIT License,Repository **clin-maintenance-ui** in Ferlab-Ste-Justine has a valid license: MIT License
+cqdg-prod-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-prod-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
+clin-maintenance-ui,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-maintenance-ui** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-openstack-postgres-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-postgres-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-postgres-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-postgres-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-postgres-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-postgres-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 s3-http-proxy,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **s3-http-proxy** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-unic-python-lib,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-python-lib** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-infra,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-infra** in Ferlab-Ste-Justine is private and is being skipped.
+unic-python-lib,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-python-lib** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-ops-service-configurations,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-ops-service-configurations** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-openstack-vault-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-vault-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 devops-scripts,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **devops-scripts** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-etcd-prometheus-configuration,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-etcd-prometheus-configuration** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-vault-security-groups,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-vault-security-groups** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-vault-load-balancer,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-vault-load-balancer** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-clin-mocks-api,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-mocks-api** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+clin-mocks-api,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-mocks-api** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-libvirt-custom-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-libvirt-custom-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 ferio,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferio** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-etcd-ferio-configuration,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-etcd-ferio-configuration** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
 terraform-openstack-custom-server,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-openstack-custom-server** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-denovo-pipeline,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-denovo-pipeline** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-ferload-drs-import,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **cqdg-ferload-drs-import** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+cqdg-ferload-drs-import,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-ferload-drs-import** in Ferlab-Ste-Justine is private and is being skipped.
 terraform-provider-healthcheck,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **terraform-provider-healthcheck** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-poc-translation,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **poc-translation** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-clin-qlin-me,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **clin-qlin-me** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-unic-admin-catalog-api,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **unic-admin-catalog-api** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-unic-admin-catalog-ui,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **unic-admin-catalog-ui** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+poc-translation,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **poc-translation** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-qlin-me,Ferlab-Ste-Justine,Archived,Private,,
+unic-admin-catalog-api,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-admin-catalog-api** in Ferlab-Ste-Justine is private and is being skipped.
+unic-admin-catalog-ui,Ferlab-Ste-Justine,Private,Private,Private,Repository **unic-admin-catalog-ui** in Ferlab-Ste-Justine is private and is being skipped.
 ferlab-next,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlab-next** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-nf-postprocessing,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **nf-postprocessing** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
+nf-postprocessing,Ferlab-Ste-Justine,No License,Public,None,Repository **nf-postprocessing** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
 pipeline-exploration-tools,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **pipeline-exploration-tools** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-custom-docker-images,Ferlab-Ste-Justine,License Recommended,Public,None,Repository **custom-docker-images** in Ferlab-Ste-Justine is public and does not have a license file. A license is recommended.
-cqdg-wrapper-api,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-wrapper-api** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+custom-docker-images,Ferlab-Ste-Justine,Private,Private,Private,Repository **custom-docker-images** in Ferlab-Ste-Justine is private and is being skipped.
+cqdg-wrapper-api,Ferlab-Ste-Justine,Private,Private,Private,Repository **cqdg-wrapper-api** in Ferlab-Ste-Justine is private and is being skipped.
+ferlab-ci,Ferlab-Ste-Justine,Private,Private,Private,Repository **ferlab-ci** in Ferlab-Ste-Justine is private and is being skipped.
 cavatica-manifest-api,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cavatica-manifest-api** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
-cqdg-prod-kubernetes-environments,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqdg-prod-kubernetes-environments** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-cqgc-prod-kubernetes-environments,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqgc-prod-kubernetes-environments** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-cqgc-prod-service-configurations,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqgc-prod-service-configurations** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-rstudio-workbench-image,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **rstudio-workbench-image** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-cqdg-prod-service-configurations,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqdg-prod-service-configurations** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-cqdg-infra,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqdg-infra** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-cqdg-ops-service-configurations,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **cqdg-ops-service-configurations** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
-ferlab-ci,Ferlab-Ste-Justine-Ops,License Recommended,Private,None,Repository **ferlab-ci** in Ferlab-Ste-Justine-Ops is private and does not have a license file. A license is recommended based on internal policy.
+Post-processing-Pipeline,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **Post-processing-Pipeline** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+quality-control-pipeline,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **quality-control-pipeline** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+hail-on-k8s,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **hail-on-k8s** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+cqdg-denovo-nextflow,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **cqdg-denovo-nextflow** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+clin-qlin-me-hybrid,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-qlin-me-hybrid** in Ferlab-Ste-Justine is private and is being skipped.
+clin-localstack,Ferlab-Ste-Justine,Private,Private,Private,Repository **clin-localstack** in Ferlab-Ste-Justine is private and is being skipped.
+ferlab-svclustering,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlab-svclustering** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+ferlab-svclustering-parental-origin,Ferlab-Ste-Justine,Valid License,Public,Apache License 2.0,Repository **ferlab-svclustering-parental-origin** in Ferlab-Ste-Justine has a valid license: Apache License 2.0
+unicr,Ferlab-Ste-Justine,Private,Private,Private,Repository **unicr** in Ferlab-Ste-Justine is private and is being skipped.
