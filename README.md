@@ -56,6 +56,15 @@ This script is to list instances with the following information:
 
 It can take 1 argument representing a regular expression to match instance names. If no argument is given, all instances are shown.
 
+## start_stop_instances.sh
+
+This script is to start or stop instances.
+
+It can take 3 arguments:
+- Action, either `start` or `stop` (mandatory)
+- Instance names to include with `--include` (optional)
+- Instance names to exclude with `--exclude` (optional)
+
 # SSH
 
 ## test_connection_ssh.sh
