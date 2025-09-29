@@ -16,7 +16,7 @@ elif [[ "$ACTION" == "stop" ]]; then
     INSTANCES=$(openstack server list --status ACTIVE -c Name -f value)
 else
     echo "Error: First argument must be 'start' or 'stop'."
-    echo "Usage: $0 {start|stop} [--include NAME] [--exclude NAME]"
+    echo "$USAGE"
     exit 1
 fi
 
@@ -50,11 +50,11 @@ if [ -z "$INSTANCES" ]; then
     exit 0
 fi
 
-echo -e "\nThe following instances will be stopped:"
+echo -e "\nThe following instances are matching:"
 echo "$INSTANCES"
 echo
 
-read -rp "Do you want to stop these instances? [Y/n]: " CONFIRM
+read -rp "Do you want to $ACTION these instances? [Y/n]: " CONFIRM
 
 if [[ "$CONFIRM" != "Y" ]]; then
     echo "Exiting."
@@ -64,7 +64,7 @@ fi
 echo
 
 for INSTANCE in $INSTANCES; do
-    echo "Stopping instance '$INSTANCE'..."
+    echo "Running '$ACTION' action for instance '$INSTANCE'..."
     openstack server "$ACTION" "$INSTANCE"
 done
 
