@@ -113,3 +113,14 @@ It requires the following environment variables and libraries:
 - The script creates two output files:
   - `license_check_logs.txt`: Detailed log of the license check process.
   - `license_check_report.csv`: CSV report of repositories and their license statuses.
+
+# LIBVIRT
+
+## list_total_volumes_size_libvirt.sh
+
+This script is to list libvirt storage pools with the following information:
+- Name
+- Path
+- Total volumes size
+
+It can optionally take one or more arguments, each representing a disk mount path, to calculate the total volumes size for each disk in addition to each storage pool.
