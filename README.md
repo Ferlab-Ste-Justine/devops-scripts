@@ -124,3 +124,22 @@ This script is to list libvirt storage pools with the following information:
 - Total volumes size
 
 It can optionally take one or more arguments, each representing a disk mount path, to calculate the total volumes size for each disk in addition to each storage pool.
+
+# CEPH
+
+## test_ceph.tf
+
+This script is to run some tests to confirm that basic functionalities works on a S3-compatible object store.
+
+It takes 5 mandatory variables:
+- Tenant ID
+- Auth URL
+- Application Credential ID
+- Application Credential Secret
+- S3 Endpoint
+
+To run S3 tests without creating Ceph resources beforehand, the script `test_s3.py` can be run independently with 4 mandatory arguments:
+- Endpoint
+- Access Key
+- Secret Key
+- Bucket
